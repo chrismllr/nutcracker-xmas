@@ -1,0 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import RoutedApp from './RoutedApp';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<RoutedApp />, document.getElementById('root'));
+registerServiceWorker();
